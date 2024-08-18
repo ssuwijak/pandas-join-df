@@ -1,6 +1,8 @@
 # Pandas 
 demo - how to read the 2 csv files and join them with their id key.
 
+![job from upwork](src/upwork_job.jpg)
+
 ### Create virtual environment
 1. create a project folder, `mkdir my_project`
 2. enter into the project folder, `cd my_project`
@@ -30,7 +32,7 @@ demo - how to read the 2 csv files and join them with their id key.
 ### How to re-apply the .gitignore
 1. Make changes in .gitignore file.
 2. Run `git rm -r --cached . ` command.
-3. Run `git add . ` command
-4. `git commit -m "your commit message" ` or just git commit or continue working
+3. Run `git add . ` command.
+4. `git commit -m "your commit message" ` or just git commit or continue working.
 
 *reference :* [How to refresh gitignore](https://sigalambigha.home.blog/2020/03/11/how-to-refresh-gitignore/)
