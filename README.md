@@ -22,7 +22,7 @@ demo - how to read the 2 csv files and join them with their id key.
 - venv not yet activated, `python -m pip freeze > requirements.txt`
 - venv already activated, `pip freeze > requirements.txt`
 
-### Install the packages by the requirement.txt file
+### Install the packages by the requirements.txt file
 > Antivirus may alert while installing the pacakages by pip
 - venv not yet activated, `python -m pip install -r /path/to/requirements.txt`
 - venv already activated, `pip install -r /path/to/requirements.txt`
