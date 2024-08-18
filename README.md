@@ -1,7 +1,7 @@
 # Pandas 
 demo - how to read the 2 csv files and join them with their id key.
 
-![job from upwork](src/upwork_job.jpg)
+![job from upwork](upwork/upwork_job.jpg)
 
 ### Create virtual environment
 1. create a project folder, `mkdir my_project`

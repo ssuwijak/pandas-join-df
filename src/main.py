@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Read the two CSV files into Pandas DataFrames
-df1 = pd.read_csv("file1.txt", header=None)  # Replace with your first file path
-df2 = pd.read_csv("file2.txt", header=None)  # Replace with your second file path
+df1 = pd.read_csv("../upwork/file1.txt", header=None)  # Replace with your first file path
+df2 = pd.read_csv("../upwork/file2.txt", header=None)  # Replace with your second file path
 
 # Assign the column indexes to be joined
 df1_index = 0
