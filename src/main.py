@@ -8,7 +8,8 @@ df2 = pd.read_csv("file2.txt", header=None)  # Replace with your second file pat
 df1_index = 0
 df2_index = 2
 
-# Join both data frame
+# Join both dataframes
+# equivalent to `select * from df1 inner join df2 on df1_index=df2_index`
 merged_df = pd.merge(df1, df2, how='inner', left_on=df1_index, right_on=df2_index, suffixes=('_file1','_file2'))
 
 # Get columns to be output
