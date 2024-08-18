@@ -4,7 +4,10 @@ demo - how to read the 2 csv files and join them with their id key.
 ### Create virtual environment
 1. create a project folder, `mkdir my_project`
 2. enter into the project folder, `cd my_project`
-3. create virtualenv and set prompt command, `python -m venv v_foldername --prompt="my-env"`
+3. create virtualenv and set prompt command, 
+- create the v_foldernam for venv, `python -m venv v_foldername --prompt="my-env"`
+- use the current folder for venv, `python -m venv . `
+
 4. activate the created venv, `v_foldername\scripts\activate`
 5. enter into the venv folder and initialize git,
 - `cd v_foldername`
@@ -15,10 +18,14 @@ demo - how to read the 2 csv files and join them with their id key.
 8. (optional) deactivate venv, `v_foldername\scripts\deactivate`
 
 ### Create the requirements.txt file
-`pip freeze > requirements.txt`
+> Antivirus will alert while using pip
+- venv not yet activated, `python -m pip freeze > requirements.txt`
+- venv already activated, `pip freeze > requirements.txt`
 
 ### Install the packages by the requirement.txt file
-`pip install -r /path/to/requirements.txt`
+> Antivirus will alert while installing the pacakages by pip
+- venv not yet activated, `python -m pip install -r /path/to/requirements.txt`
+- venv already activated, `pip install -r /path/to/requirements.txt`
 
 ### How to re-apply the .gitignore
 1. Make changes in .gitignore file.
