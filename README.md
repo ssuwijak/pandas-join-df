@@ -18,12 +18,12 @@ demo - how to read the 2 csv files and join them with their id key.
 8. (optional) deactivate venv, `v_foldername\scripts\deactivate`
 
 ### Create the requirements.txt file
-> Antivirus will alert while using pip
+> Antivirus may alert while using pip
 - venv not yet activated, `python -m pip freeze > requirements.txt`
 - venv already activated, `pip freeze > requirements.txt`
 
 ### Install the packages by the requirement.txt file
-> Antivirus will alert while installing the pacakages by pip
+> Antivirus may alert while installing the pacakages by pip
 - venv not yet activated, `python -m pip install -r /path/to/requirements.txt`
 - venv already activated, `pip install -r /path/to/requirements.txt`
 
